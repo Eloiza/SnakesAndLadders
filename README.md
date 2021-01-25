@@ -8,27 +8,23 @@ O jogo de tabuleiro Snakes and Ladders foi implementado neste projeto para se re
 4. Começando com um jogo base, você decide que quer que o jogo tenha aproximadamente chances iguais. Você faz isso ao mudar a casa de ínicio. Em qual casa o segundo jogador deve começar para se ter chances iguais para ambos os jogadores?
 5. Em uma tentativa diferente de mudar as probabilidades, em vez do segundo jogador começar o jogo em uma casa diferente, você decide dar ao Jogador 2 imunidade para a primeira cobra que ele parar. Qual é a probabilidade aproximada de que o Jogador 1 ganhe?
 
-Para a implementação do jogo, foi usado um tabuleiro com 35 casas, sendo 5 delas cobras e 5 delas escadas. A configuração do boardgame pode ser vista na imagem abaixo.
+Para a implementação do jogo, foi usado um tabuleiro com 35 casas, sendo 5 delas cobras e 5 delas escadas. A configuração do boardgame pode ser vista na imagem abaixo. A tabela mostra a posição das cobras e das escadas bem como o local final em que o jogador é levado por elas.
 
-![Configuração do tabuleiro usado](https://github.com/Eloiza/SnakesAndLadders/blob/main/board_game.png)
-
-As listas abaixo mostram a posição das cobras e das escadas bem como o local final em que o jogador é levado por elas.
-
-##### Cobras
-- 12 -> 2
-- 14 -> 11
-- 17 -> 4
-- 31 -> 19
-- 35 -> 22
+<center><img src= "https://github.com/Eloiza/SnakesAndLadders/blob/main/board_game.png"></center>
 
 
-##### Escadas
-- 3 --> 16
-- 5 -> 7
-- 15 -> 25
-- 18 -> 20
-- 21 -> 32
+| Cobras  | Escadas |
+|---------|---------|
+|12 -> 2  | 3 -> 16 |
+|14 -> 11 | 5 -> 7  |
+|17 -> 4  | 15 -> 25|
+|31 -> 19 | 18 -> 20|
+|35 -> 22 | 21 -> 32|
+
 
 ### Executando o código
 Para executar o projeto basta clonar o repositório e digitar o comando abaixo:
-`python3 game_analysis.py`
+
+```
+python3 game_analysis.py
+```
