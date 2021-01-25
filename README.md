@@ -1,4 +1,12 @@
 # SnakesAndLadders
+
+### Executando o código
+Para executar o projeto basta clonar o repositório e digitar o comando abaixo:
+
+```
+python3 game_analysis.py
+```
+
 ### Descrição
 O jogo de tabuleiro Snakes and Ladders foi implementado neste projeto para se realizar o estudo das probabilidades envolvidas com este jogo. Para tal foi feito a simulação de 10.000 jogos e a partir dos dados coletados se torna possível a sua análise. O principal interesse foi responder as quatro perguntas listadas abaixo: 
 
@@ -20,10 +28,3 @@ Para a implementação do jogo, foi usado um tabuleiro com 35 casas, sendo 5 del
 |35 -> 22 | 21 -> 32|
 
 <center><img src= "https://github.com/Eloiza/SnakesAndLadders/blob/main/board_game.png"></center>
-
-### Executando o código
-Para executar o projeto basta clonar o repositório e digitar o comando abaixo:
-
-```
-python3 game_analysis.py
-```
