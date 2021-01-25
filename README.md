@@ -1,5 +1,5 @@
 # SnakesAndLadders
-###Descrição
+### Descrição
 O jogo de tabuleiro Snakes and Ladders foi implementado neste projeto para se realizar o estudo das probabilidades envolvidas com este jogo. Para tal foi feito a simulação de 10.000 jogos e a partir dos dados coletados se torna possível a sua análise. O principal interesse foi responder as quatro perguntas listadas abaixo: 
 
 1. Em um jogo com dois jogadores, qual a probabilidade do jogador inicial ganhar o jogo?
@@ -14,7 +14,7 @@ Para a implementação do jogo, foi usado um tabuleiro com 35 casas, sendo 5 del
 
 As listas abaixo mostram a posição das cobras e das escadas bem como o local final em que o jogador é levado por elas.
 
-#####Cobras
+##### Cobras
 - 12 -> 2
 - 14 -> 11
 - 17 -> 4
@@ -22,13 +22,13 @@ As listas abaixo mostram a posição das cobras e das escadas bem como o local f
 - 35 -> 22
 
 
-#####Escadas
+##### Escadas
 - 3 --> 16
 - 5 -> 7
 - 15 -> 25
 - 18 -> 20
 - 21 -> 32
 
-###Executando o código
+### Executando o código
 Para executar o projeto basta clonar o repositório e digitar o comando abaixo:
 `python3 game_analysis.py`
