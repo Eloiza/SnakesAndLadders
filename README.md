@@ -10,7 +10,7 @@ O jogo de tabuleiro Snakes and Ladders foi implementado neste projeto para se re
 
 Para a implementação do jogo, foi usado um tabuleiro com 35 casas, sendo 5 delas cobras e 5 delas escadas. A configuração do boardgame pode ser vista na imagem abaixo.
 
-![alt text](https://github.com/Eloiza/SnakesAndLadders/origin/board_game.png)
+![Configuração do tabuleiro usado](https://github.com/Eloiza/SnakesAndLadders/blob/main/board_game.png)
 
 As listas abaixo mostram a posição das cobras e das escadas bem como o local final em que o jogador é levado por elas.
 
